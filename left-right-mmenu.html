@@ -7,23 +7,24 @@
 
 		<title>jQuery.mmenu - Left/Right menu</title>
 
-		<link type="text/css" rel="stylesheet" href="src/css/bootstrap/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
 
-		<link type="text/css" rel="stylesheet" href="css/demo.css" />
-		<link type="text/css" rel="stylesheet" href="http://mmenu.frebsite.nl/mmenu/src/css/jquery.mmenu.all.css" />
-		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script type="text/javascript" src="src/js/jquery.mmenu.js"></script>
-		<script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/demo.css" />
+
+        <link type="text/css" rel="stylesheet" href="/bower_components/jQuery.mmenu/src/css/jquery.mmenu.all.css" />
+
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jQuery.mmenu/src/js/jquery.mmenu.min.all.js"></script>
+        <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			//	The menu on the left
 			$(function() {
-			  $('nav#menu-left').mmenu({
+			  $('#menu-left').mmenu({
 			    dragOpen	: true});
 			});
 			//	The menu on the right
 			$(function() {
-			  $('nav#menu-right').mmenu({
+			  $('#menu-right').mmenu({
 			    position	: 'right',
 			    dragOpen	: true});
 			});
